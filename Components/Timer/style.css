@@ -1,0 +1,14 @@
+.wrapper {
+    display: grid;
+    place-items: center;
+}
+
+.wrapper_btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.disabled {
+    pointer-events: none;
+}
